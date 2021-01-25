@@ -1,0 +1,16 @@
+{
+  "name": "timer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Konstantinos Angelopoulos <kwstantinos.agelopoulos@outlook.com> (https://github.com/KonstantinosAng)",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^11.2.1",
+    "electron-shutdown-command": "^2.0.1",
+    "electron-squirrel-startup": "^1.0.0"
+  }
+}

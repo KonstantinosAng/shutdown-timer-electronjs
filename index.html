@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> Shutdown Timer </title>
+    <link rel="stylesheet" href="index.css">
+    <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="timer.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <form encType="multipart/form-data" class="contact_form" onSubmit="check()">
+        <h2 class="row"> Shutdown Timer </h2>
+        <div class="box">
+          <input type="text" id="hour" class="hour col" value="" placeholder="Hours" required />
+          <input type="text" id="minutes" class="minutes col" value="" placeholder="Minutes" required />
+          <input type="text" id="seconds" class="seconds col" value="" placeholder="Seconds" required />
+        </div>
+        <button id="button" class="btn2" type="submit" onclick="prevent(event)" value="Submit"> Start </button>
+        <div id="error"> Shutting Down...</div>
+      </form>
+    </div>
+  </body>
+</html>
