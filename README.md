@@ -1,6 +1,6 @@
 # Shutdown Timer
 
-A simple app to shutdown a computer based on a time interval.
+A simple app to shutdown a computer based on a time interval using [ElectronJS](https://www.electronjs.org/).
 
 ## Requirements
 
